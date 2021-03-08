@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.projectBorder{
+    border-bottom: 2px solid rgb(54, 53, 53);
+    width: 80px;
+}
+.nameinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listProducts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.productBox{
+    width: 75%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+    grid-template-rows: repeat(3,230px);
+    grid-gap: 15px;
+    grid-auto-rows: 280px;
+}
+.productBox:hover{
+    cursor: pointer;
+}
+.imgg{
+    width: 250px;
+    height: 260px;
+}
